@@ -67,6 +67,7 @@ const toun28Tablet = document.querySelector(".toun28_tablet");
 const toun28Mobile = document.querySelector(".toun28_mobile");
 const eggdropTablet = document.querySelector(".eggdrop_tablet");
 const eggdropMobile = document.querySelector(".eggdrop_mobile");
+
 // 반응형 웹에 있는 데스크탑/태블릿/모바일 버튼을 누르면 각각의 크기에 맞는 새 창이 뜬다.
 toun28Tablet.addEventListener("click",function(){
   let url = "https://gogo2go.cafe24.com/toun28_renew/"; 
@@ -85,7 +86,7 @@ eggdropTablet.addEventListener("click",function(){
 });
 eggdropMobile.addEventListener("click",function(){
   let url = "https://gogo2go.cafe24.com/eggdrop/"; 
-  window.open(url,"eggdropMobile","width=479px,height=700px,left=500px,top=100px");
+  window.open(url,"eggdropMobile","width=375px,height=700px,left=500px,top=100px");
   //window.open(url,"이름","크기,위치");  
 });
 
