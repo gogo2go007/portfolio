@@ -4,10 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>배포연습</title>
-
+    <title>ye_go 포트폴리오 스티키적용</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>     
 </head>
 <body>
-hello web
+    <div id="wrap">
+        <div id="header">
+            <div class="h_center">
+                <h1><a href="index.html">GO.YOUNEEUN</a></h1>
+                <ul class="h_menu">
+                    <li class="on"><a href="#">About</a></li>
+                    <li><a href="#">Artwork01</a></li>
+                    <li><a href="#">Artwork02</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="container"> 
+            <div class="con1_wrap">
+                <div class="con_bg" data-aos="fade-right">Web Creator</div>
+                <div class="con1 section">
+                    <div class="con1_top">
+                        <div class="typing"></div>
+                        <h3>WEB Design & WEB Publisher</h3>
+                    </div>
+                    <div class="con1_bot">
+                        <h2>SKILLS</h2>
+                        <ul class="skill">
+                            <li><span>HTML:</span><p>디자인시안을 보고 테이블 레이아웃(UI/UX) 설계 및 마크업, 기타 구성요소 마크업 코딩 가능</p></li>
+                            <li><span>CSS:</span><p>홈페이지 레이아웃(UI/UX) 설계 및 마크업, Media Query를 활용한 반응형 코딩 가능</p></li>
+                            <li><span>JAVASCRIPT:</span><p>웹사이트에 들어갈 보편적인 기능들 (메뉴,탭,슬라이더 등) 구현가능</p></li>
+                            <li><span>PHOTOSHOP:</span><p>사진이미지 보정 및 편집 수정 가능</p></li>
+                            <li><span>ILLUSTRATOR:</span><p>필요한 소스 제작 가능</p></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div id="con2">
+                <div class="con2_contents toun28_cont">
+                    <div class="con2_txt section">
+                        <span class="num">01</p>
+                        <h3><a href="https://gogo2go.cafe24.com/toun28_renew/">톤28 리뉴얼</a></h3>
+                        <p class="exp">작업 기간: 3주 </p>
+                        <p class="exp">참여도: 퍼블리싱 100% </p>
+                        <p class="exp">서브페이지: 톤28 / 맞춤구독서비스 / 스토어 </p>
+                        <p class="exp">자바스크립트: 카운트다운 / 캐로셀 / 스크롤 이벤트 / 클릭 이벤트 등 구현</p>
+                        <p class="exp">라이브러리: AOS / isotope 사용</p>
+                        <p class="exp">반응형:</p>
+                        <div class="respon_btn">
+                            <li><a href="https://gogo2go.cafe24.com/toun28_renew/" target="_blank">PC</a></li>
+                            <li class="toun28_tablet"><a href="#">TABLET</a></li>
+                            <li class="toun28_mobile"><a href="#">MOBILE</a></li>
+                        </div>
+                    </div>
+                    <div class="con2_mainimg toun28">
+                        <a href="https://gogo2go.cafe24.com/toun28_renew/"><img src="images/toun_fulll.jpg"></a>
+                    </div>
+                </div>
+                <div class="con2_contents egg_cont">
+                    <div class=" con2_txt section">
+                        <span class="num">02</span>
+                        <h3><a href="#">EGG DROP 리뉴얼</a></h3>
+                        <p class="exp">작업 기간: 3주 </p>
+                        <p class="exp">참여도: 퍼블리싱 100% </p>
+                        <p class="exp">서브페이지: MENU / ABOUT / CONTACT </p>
+                        <p class="exp">자바스크립트:  캐로셀 / 스크롤 이벤트 / 상품더보기/ 애니메이션</p>
+                        <p class="exp">라이브러리: AOS / isotope 사용</p>
+                        <p class="exp">반응형:</p>
+                        <div class="respon_btn">
+                            <li><a href="https://gogo2go.cafe24.com/eggdrop/" target="_blank">PC</a></li>
+                            <li class="eggdrop_tablet"><a href="#">TABLET</a></li>
+                            <li class="eggdrop_mobile"><a href="#">MOBILE</a></li>
+                        </div>
+                    </div>
+                    <div class="con2_mainimg eggdrop">
+                        <a href="https://gogo2go.cafe24.com/eggdrop/"><img src="images/eggdrop_fulll.jpg"></a>
+                    </div>
+                </div>                        
+            </div>
+            <div id="con3" class="section">
+                <div class="con3_center">
+                    <div class="con3_title">
+                        <h2>Design</h2>
+                        <span>banner / productpage / post</span>
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner01.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner02.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner03.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner04.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner05.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner06.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner07.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner08.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="sub.html">
+                                    <img src="images/banner09.jpg" />
+                                    <div class="design_more">Design More<br><span>Click</span></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">햣</div>
+                    </div>
+                    <div class="design_btn"><a href="sub.html">디자인 더보기</a></div>
+                </div>
+            </div>
+            <div id="con4" class="section">
+                <div class="con4_center">
+                    <h2>Contact Me</h2>
+                    <ul class="con4_text">
+                        <li><span>이름: </span>고영은</li>
+                        <li><span>연락처: </span>010-2295-1930</li>
+                        <li><span>이메일: </span>gogo2go007@naver.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright © 2023 YOUNG EUN All right reserved.
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
