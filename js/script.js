@@ -2,7 +2,7 @@
 // AOS.init();
 
 // 타이핑영역
-let text = "퍼블리셔 \n 고영은 입니다."
+let text = "디자이너 퍼블리셔 \n 고영은 입니다."
 let viewText = "";
 let i = 0;
 
